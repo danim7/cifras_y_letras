@@ -1,5 +1,6 @@
 # cifras_y_letras
 Solucionador para la prueba de cifras del concurso "Cifras y letras"
+
 Solver for the math challenge on TV contest "Cifras y letras" (FR: Des chiffres et des lettres; EN: Numbers and Letters)
 
 # Notes
@@ -19,5 +20,6 @@ Ubuntu Linux:
 
 # Running
 [executable name] [numbers given * 6] [target]
+
 Example:
 > ./main 5 8 3 25 1 1 372
