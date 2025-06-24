@@ -16,10 +16,18 @@ If these rules don't need to be enforced, they can be changed from 1 to 0 to dis
 
 # Compiling
 Ubuntu Linux:
-> g++ main.cpp -o main
+>  g++ main.cpp -o main
 
 # Running
 [executable name] [numbers given * 6] [target]
 
 Example:
-> ./main 5 8 3 25 1 1 372
+>  ./main   5   8   3   25   1   1   372
+
+Output:
+> i 2: 5 * 25 = 125
+> 
+> i 1: 125 - 1 = 124
+> 
+> i 0: 124 * 3 = 372
+
