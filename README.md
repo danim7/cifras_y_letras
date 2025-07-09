@@ -6,13 +6,12 @@ Solver for the math challenge on TV contest "Cifras y letras" (FR: Des chiffres 
 # Notes
 It assumes the numbers given and the target are integers that can also perfectly fit into a IEEE-754 float.
 
-There are two macros defined by default at the beggining of the source:
+There are two macros defined at the beggining of the source:
 
-INT_DIV_ONLY --> the division operation is valid only when the result is an integer
+ALLOW_FRACTIONAL_NUMBERS 0 --> the division operation is valid only when the result is an integer, change to 1 to allow fractional results
 
-FORBID_NEG --> the substraction operation is valid only when the result is a positive integer
+ALLOW_NEGATIVE_NUMBERS 0 --> the substraction operation is valid only when the result is a positive integer, change to 1 to allow negative numbers
 
-If these rules don't need to be enforced, they can be changed from 1 to 0 to disable these checks.
 
 # Compiling
 Ubuntu Linux:
